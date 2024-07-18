@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0d4b7;
+    margin: 0;
+    background-image: url('The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    text-align: center;
+    background-color: #fff8e1;
+    background-color: rgba(255, 248, 225, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid #d4b483;
+
+}
+.title-icon {
+    width: 40px; 
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #d4b483;
+    border-radius: 5px;
+    background-color: #fdf8e4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="number"], select {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #d4b483;
+    border-radius: 5px;
+    background-color: #fdf8e4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    margin: 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b4226;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #55331a;
+}
+
+h1, h2, h3 {
+    color: #6b4226;
+    font-family: 'Georgia', serif;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #6b4226;
+}
+.method-info {
+    margin-bottom: 20px;
+}
+
+.method-info h3 {
+    color: #6b4226;
+    font-family: 'Georgia', serif;
+}
+
+.method-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codigo Da victor</title>
+    <link rel="icon" href="images.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <textarea id="inputText" placeholder="Escribe tu texto aquí..."></textarea>
+        <br>
+        <select id="encryptionMethod">
+            <option value="caesar">César</option>
+            <option value="reverse">Inversión</option>
+            <option value="rot13">ROT13</option>
+        </select>
+        <input type="number" id="shift" placeholder="Desplazamiento" min="1" max="25" style="display: none;">
+        <br>
+        <button id="encryptButton">Encriptar</button>
+        <button id="decryptButton">Desencriptar</button>
+        <br>
+        <textarea id="outputText" placeholder="El resultado aparecerá aquí..." readonly></textarea>
+        <br>
+        <button id="infoButton">Información de Métodos</button>
+        <div id="infoSection" style="display: none;">
+            <div id="caesarInfo" class="method-info">
+                <h2>Cifrado César</h2>
+                <p>El cifrado César es una técnica de encriptación que desplaza cada letra del texto según un valor determinado.</p>
+                <p>Para desencriptar, se utiliza el desplazamiento negativo.</p>
+            </div>
+            <div id="reverseInfo" class="method-info" style="display: none;">
+                <h2>Inversión de Texto</h2>
+                <p>La inversión de texto simplemente invierte el orden de las letras en el texto.</p>
+            </div>
+            <div id="rot13Info" class="method-info" style="display: none;">
+                <h2>ROT13</h2>
+                <p>ROT13 es un simple cifrado por sustitución que reemplaza cada letra del texto con la letra que se encuentra 13 posiciones más adelante en el alfabeto.</p>
+                <p>Es un cifrado simétrico, lo que significa que aplicar ROT13 dos veces seguidas devolverá el texto original.</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
