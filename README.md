@@ -4,21 +4,21 @@ Este es un encriptador de texto simple que puedes usar para cifrar y descifrar m
 
 ## Cómo funciona
 
-El encriptador utiliza un algoritmo de cifrado [inserta el nombre del algoritmo, si lo sabes] para convertir texto plano en texto cifrado. El texto cifrado se puede descifrar utilizando la misma clave.
+El encriptador utiliza un algoritmo de metodos para convertir texto plano en texto cifrado.
 
 ## Cómo usarlo
 
 1. Ingresa el texto que deseas encriptar o desencriptar en el campo de entrada.
-2. Ingresa la clave de cifrado.
+2. Ingresa el metodo que quieres utilizar(en el metodo cesar,debera elegir un metodo y luego elegir otra vez el cesar para que funcione bien ese metodo).
 3. Haz clic en el botón "Encriptar" o "Desencriptar".
 4. El texto encriptado o desencriptado se mostrará en el campo de salida.
 
 ## Características
 
 * **Cifrado y descifrado:** Permite encriptar y desencriptar texto.
-* **Clave de cifrado:** Utiliza una clave para cifrar y descifrar el texto.
+* **Metodo de Cifrado:** Utiliza metodos para cifrar y descrifrar.
 * **Interfaz simple:** Fácil de usar con una interfaz simple.
-
+ 
 ## Instalación
 
 No se requiere instalación. Puedes ejecutar el encriptador directamente desde el archivo HTML.
@@ -27,6 +27,7 @@ No se requiere instalación. Puedes ejecutar el encriptador directamente desde e
 
 Las contribuciones son bienvenidas. Si encuentras algún error o tienes alguna sugerencia, por favor abre un problema o envía una solicitud de extracción.
 
-## Licencia
+## Informacion de metodos
+si no sabe como utilizar algun metodo o no sabe su definicion, en la parte de abajo hay un boton que dependiendo de que metodo este utilizando desplegara informacion de ese metodo.
 
-Este proyecto está licenciado bajo la Licencia [AluraLatam]  consulta el archivo LICENSE para obtener más detalles.
+
